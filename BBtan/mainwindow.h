@@ -19,6 +19,7 @@ public:
     ~MainWindow();
     Scene *scene;
 
+
     void settingBg();
 private:
     Ui::MainWindow *ui;

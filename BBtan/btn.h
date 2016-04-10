@@ -11,7 +11,6 @@ class Btn : public QGraphicsPixmapItem
 {
 public:
     Btn();
-    void mousePressEvent(QGraphicsSceneMouseEvent *event);
 signals:
     void sender();
 };
