@@ -9,3 +9,6 @@ Implement Android game - BBTAN on Qt
 2. [Tutorial two](https://paper.dropbox.com/doc/Qt-How-to-make-BBTAN-on-Qt-2-kv6zS0urVCMruNzIcFici)
   * Focus on gameitem (user-defined class) using. 
   * How to using game loop to reach the function you want.
+
+
+###### Qt creator environment : Qt 5.5.1 (GCC 4.9.1 20140922(Red Hat 4.9.1-10),64 bit) , on ubuntu 15.10 .
