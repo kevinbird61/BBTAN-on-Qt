@@ -2,13 +2,17 @@
 Implement Android game - BBTAN on Qt
 * use for Qt tutorial
 * created by Kevin Chu
+* Original game : BBTAN , owned by [111%](https://play.google.com/store/apps/dev?id=7769366979601471884&hl=zh_TW)
 
 ## About Tutorial paper
 1. [Tutorial one](https://paper.dropbox.com/doc/Qt-How-to-make-BBTAN-on-Qt-1-B1wm7QzlR7zeI5u7nFCk6)
   * Focus on building window , scene and basic functional control.
 2. [Tutorial two](https://paper.dropbox.com/doc/Qt-How-to-make-BBTAN-on-Qt-2-kv6zS0urVCMruNzIcFici)
-  * Focus on gameitem (user-defined class) using. 
+  * Focus on gameitem (user-defined class) using.
+  * Using Timer and signal slots to build the game loop.
   * How to using game loop to reach the function you want.
+3. [Tutorial three](https://paper.dropbox.com/doc/Qt-How-to-make-BBTAN-on-Qt3-wlBB8Wg7jVUkSKvjKuFM5)
+  * Using MouseEvent to control game item.
 
 
 ###### Qt creator environment : Qt 5.5.1 (GCC 4.9.1 20140922(Red Hat 4.9.1-10),64 bit) , on ubuntu 15.10 .
