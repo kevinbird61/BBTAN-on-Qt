@@ -19,4 +19,7 @@ Implement Android game - BBTAN on Qt
 5. [Tutorial five](https://paper.dropbox.com/doc/Qt-How-to-make-BBTAN-on-Qt5-GZ001PnQ7bk9USliENARE)
   * Implement the collision with collidingItem.
 
+--------------------------------------------------(50% completed for game entertainment)--------------------------------------------------
+
+
 ###### Qt creator environment : Qt 5.5.1 (GCC 4.9.1 20140922(Red Hat 4.9.1-10),64 bit) , on ubuntu 15.10 .
