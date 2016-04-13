@@ -22,4 +22,9 @@ Implement Android game - BBTAN on Qt
 --------------------------------------------------(50% completed for game entertainment)--------------------------------------------------
 
 
+###### BBTAN - currently version
+* Is my latest updated version of this game , welcome to fork and revise ! And if there have some problem within , welcome to put forward with me !
+* This is a tutorial of Qt , but if you have found some problem , or have some question with the tutorial lesson on DropBox paper , welcome to leave some message on it ! 
+* Hope everyone can have some fun with it !
+
 ###### Qt creator environment : Qt 5.5.1 (GCC 4.9.1 20140922(Red Hat 4.9.1-10),64 bit) , on ubuntu 15.10 .
