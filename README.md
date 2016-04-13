@@ -21,6 +21,7 @@ Implement Android game - BBTAN on Qt
 
 --------------------------------------------------(50% completed for game entertainment)--------------------------------------------------
 
+## About this tutorial detail
 
 ###### BBTAN - currently version
 * Is my latest updated version of this game , welcome to fork and revise ! And if there have some problem within , welcome to put forward with me !
