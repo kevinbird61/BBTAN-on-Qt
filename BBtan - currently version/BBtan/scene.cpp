@@ -139,12 +139,12 @@ void Scene::geneNextBlock()
     // rand a number : 0 ~ 5
     int rand = qrand();
     int current_level_build = rand%every_level_num;
-    // cout<< rand << " ; " << current_level_build << endl;
-    // FIXME: And let the exists block go down for one step
+    // Moving the block to next level
     movingBlock();
     // After moving exists , we can build our new block
     for(int i = 0 ; i < current_level_build ; i++)
     {
+        // new block
         Block *block;
         block = new Block(every_level_size,every_level_height);
         QPixmap bl;
@@ -155,9 +155,6 @@ void Scene::geneNextBlock()
         this->addItem(block);
         list.push_front(block);
     }
-
-    //cout<<(rightBound - leftBound) << number << endl;
-
 }
 
 void Scene::DoCollision()
@@ -171,13 +168,14 @@ void Scene::DoCollision()
             // detect if hit the man
             break;
         }
+        else{
         Block *item = dynamic_cast<Block *>(i);
         // Let the speed reverse
         if(ball->pos().y() <= item->pos().y() ){
             // upside
             ball->setY_speed( - ball->y_speed);
         }
-        else if(ball->pos().y() > item->pos().y() && ball->pos().y() < (item->pos().y() + item->size_h - 10) ){
+        else if(ball->pos().y() > item->pos().y() && ball->pos().y() < (item->pos().y() + item->size_h - 20) ){
             // inside
             ball->setX_speed( - ball->x_speed);
         }
@@ -185,14 +183,13 @@ void Scene::DoCollision()
             // downside
             ball->setY_speed( - ball->y_speed);
         }
-
+        // Play the sound
         ball_hit->play();
+        // Remove from scene
         this->removeItem(item);
+        // Delete it from scene
         list.removeOne(item);
-
-        //cout << list.count() << endl;
-        // cout<< sizeof(list) << endl;
-        break;
+        }
     }
 }
 

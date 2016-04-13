@@ -16,14 +16,10 @@ Ball::Ball(int upper, int lower, int left, int right)
 void Ball::advance(int phase)
 {
     // Do moving
-
     this->setPos(this->pos().x()+ x_speed , this->pos().y()+ y_speed);
-
+    cout<< x_speed << " ; " << y_speed << endl;
+    // check the boundary
     checkBoundary();
-
-    // DoCollision();
-    // For debugging
-    // cout << "Ball advance triggered" << endl;
 }
 
 void Ball::setX_speed(int speed)
