@@ -1,0 +1,22 @@
+<RCC>
+    <qresource prefix="/image">
+        <file>../img/back.jpg</file>
+        <file>../img/ball.png</file>
+        <file>../img/block.jpg</file>
+        <file>../img/btn_change_ball.jpg</file>
+        <file>../img/btn_start.jpg</file>
+        <file>../img/character.jpg</file>
+        <file>../img/character.png</file>
+        <file>../img/conti_1.jpg</file>
+        <file>../img/cub.jpg</file>
+        <file>../img/icon.png</file>
+        <file>../img/open.jpg</file>
+        <file>../img/Pause.jpg</file>
+        <file>../img/source.jpg</file>
+        <file>../img/start.jpg</file>
+    </qresource>
+    <qresource prefix="/Sound">
+        <file>../sound/ball_hit.wav</file>
+        <file>../sound/start.wav</file>
+    </qresource>
+</RCC>
