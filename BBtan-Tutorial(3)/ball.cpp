@@ -8,8 +8,8 @@ Ball::Ball(int upper, int lower, int left, int right)
     lef = left;
     rig = right;
     // For debugging
-    x_speed = 0.0;
-    y_speed = 0.0;
+    x_speed = 0;
+    y_speed = 0;
 
 }
 

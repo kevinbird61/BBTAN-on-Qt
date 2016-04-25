@@ -25,8 +25,6 @@ public:
     void setY_speed(int speed);
     void checkBoundary();
 
-
-
 };
 
 #endif // BALL_H

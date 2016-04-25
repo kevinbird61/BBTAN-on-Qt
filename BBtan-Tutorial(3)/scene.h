@@ -5,6 +5,7 @@
 #include <QGraphicsPixmapItem>
 #include <QTimer>
 #include <QSound>
+#include <QKeyEvent>
 #include "btn.h"
 #include "character.h"
 #include "ball.h"
@@ -19,6 +20,8 @@ public:
     void bgRecover(); // For background change back to start page
     void gameInit(); // Start the game page
     void mousePressEvent(QGraphicsSceneMouseEvent *event);
+    // Add keyEvent
+    void keyPressEvent(QKeyEvent *event);
     /* Variable */
     // For button
     Btn *btn_start;

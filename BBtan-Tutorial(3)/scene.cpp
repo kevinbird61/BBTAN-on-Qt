@@ -104,6 +104,7 @@ void Scene::mousePressEvent(QGraphicsSceneMouseEvent *event)
     }
     else if(screenMode == 3)
     {
+        // Game started mode
         if(event->scenePos().x() > btn_back->pos().x() && event->scenePos().x() <= btn_back->pos().x()+btn_small_w)
         {
             // Now x is in range , judge y
@@ -125,6 +126,21 @@ void Scene::mousePressEvent(QGraphicsSceneMouseEvent *event)
     /* For debugging */
     //cout << "btn start x: " << btn_start->pos().x()<< " btn start y: " << btn_start->pos().y() << endl;
     //cout << "Now event x: " << event->scenePos().x()<< " event y: " << event->scenePos().y() << endl;
+}
+
+void Scene::keyPressEvent(QKeyEvent *event)
+{
+    cout<< "You can add code here! Current key: "<<event->key()<< endl;
+    if(event->key() == 16777216)
+    {
+        // Force the BBTAN stop
+        abort();
+    }
+    if(event->key() == 16777220)
+    {
+        ball->setX_speed(-1);
+        ball->setY_speed(-1);
+    }
 }
 
 void Scene::bgChange()

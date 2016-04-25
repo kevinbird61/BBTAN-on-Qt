@@ -19,7 +19,6 @@ public:
     ~MainWindow();
     Scene *scene;
 
-
     void settingBg(int x_start , int y_end);
 private:
     Ui::MainWindow *ui;
