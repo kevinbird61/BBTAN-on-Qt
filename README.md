@@ -21,6 +21,10 @@ Implement Android game - BBTAN on Qt
 
 --------------------------------------------------(50% completed for game entertainment)--------------------------------------------------
 
+## Other tutorial 
+[Tutorial #1](https://paper.dropbox.com/doc/Qt-How-to-make-Resource-file-EKB3RtA5kguXl14MFPRFR)
+  * using resource file tp your program.
+
 ## About this tutorial detail
 
 ###### BBTAN - currently version
