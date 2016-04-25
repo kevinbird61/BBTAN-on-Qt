@@ -32,7 +32,7 @@ public:
     // For game
     Character *man;
     Ball *ball;
-    int ch_x_pos;
+    int ch_y_pos;
 
     // For timer
     QTimer *timer;

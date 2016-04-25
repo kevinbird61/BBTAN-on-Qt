@@ -8,17 +8,15 @@ Ball::Ball(int upper, int lower, int left, int right)
     lef = left;
     rig = right;
     // For debugging
-    x_speed = -1;
-    y_speed = -2;
+    x_speed = 0;//-1;
+    y_speed = 0;//-2;
 
 }
 
 void Ball::advance(int phase)
 {
     // Do moving
-
     this->setPos(this->pos().x()+x_speed , this->pos().y()+y_speed);
-
     checkBoundary();
     // For debugging
     // cout << "Ball advance triggered" << endl;

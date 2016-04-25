@@ -148,7 +148,7 @@ void Scene::gameInit()
     man->setPixmap(ch);
     man->setPos(300,450);
     // save the initial position
-    ch_x_pos = 300;
+    ch_y_pos = 450;
     // save the initial lowerBoundary
     lowerBound = 450+50; // 50 is the bias (every picture's have it's original boundary)
     this->addItem(man);
