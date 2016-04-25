@@ -11,8 +11,6 @@ class Btn : public QGraphicsPixmapItem
 {
 public:
     Btn();
-signals:
-    void sender();
 };
 
 #endif // BTN_H

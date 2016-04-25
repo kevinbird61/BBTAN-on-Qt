@@ -107,6 +107,7 @@ void Scene::bgRecover()
     addItem(btn_change_ball);
     QImage bg;
     bg.load("../img/open.jpg");
+    // If you have change this in mainwindow , and then you have to change here , too!
     bg = bg.scaled(370,630);
     this->setBackgroundBrush(bg);
 }
