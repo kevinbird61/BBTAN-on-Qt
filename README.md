@@ -24,6 +24,7 @@ Implement Android game - BBTAN on Qt
 ## Other tutorial 
 [Tutorial #1](https://paper.dropbox.com/doc/Qt-How-to-make-Resource-file-EKB3RtA5kguXl14MFPRFR)
   * using resource file tp your program.
+
 [Tutorial #2](https://paper.dropbox.com/doc/Qt-How-to-Using-our-Class-in-UI-design-ptvivgkwOkJaLpyGFNfno)
   * using user-defined class on ui-design mode.
 
